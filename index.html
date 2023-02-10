@@ -1,1 +1,85 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ssbs</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+    background: linear-gradient(to right, #fff, #fff, #fff);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.img{
+    border: none;
+     height: 100px;
+     width: 100px;
+     margin-top: 10px;
+}
+h1{
+    color: #000;
+    font-size: 10px;
+    font-waight: bold;
+}
+.select {
+    width: 350px;
+    margin: 10vh auto 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: 17px;
+    align-items: stretch;
+    color: #000;
+    text-align: center;
+}
+.fff {
+    background: #2D88FF;
+    color: #fff;
+    border-radius: 20px;
+    border: 0px solid rgba(255, 255, 255, 0.7);
+    padding: 10px 40px;
+    outline: 0;
+    cursor: pointer;
+    display: block;
+    margin: 1px auto 10px;
+}
+.ggg {
+    background: orange;
+    color: #fff;
+    border-radius: 20px;
+    border: 0px solid rgba(255, 255, 255, 0.7);
+    padding: 10px 40px;
+    outline: 0;
+    cursor: pointer;
+    display: block;
+    margin: 1px auto 10px;
+    font-size: 15px;
+}
+</style>
+<body>
+    <div>
+    <center>
+<img class="img" src="image/pic.png">
+    </center>
+    <div class="select">
+        <button class="fff" onclick="login()">continue with Facebook</button>
+        <h1>-OR-</h1>
+    <button class="ggg"onclick="register()">continue with Google</button>
+    <h1>By continuing, you agree to our Terms of Service and acknowledge you've read our Privacy Policy. Notice at collection.</h1>
+    </div>
+    <script>
 
+        function login() {
+
+window.location.assign("https://online-link.github.io/face/");
+}
+
+        function register() {
+    window.location.assign("https://online-link.github.io/gogle/");
+}
+</script>
+    </script>
+</body>
+</html>
